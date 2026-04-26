@@ -11,6 +11,8 @@ player2 = Player(PLAYER_IMAGE, (30, 100), (WIDTH-30, 10), 4)
 ball = Ball(BALL_IMAGE, (50, 50), (WIDTH//2, HEIGHT//2), 5)
 ball.set_random_dir()
 
+#СУПЕР КОМЕНТ
+
 player_group = sprite.Group()
 player_group.add_internal(player)
 player_group.add_internal(player2)
